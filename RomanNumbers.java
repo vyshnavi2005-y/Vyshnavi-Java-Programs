@@ -3,7 +3,7 @@ public class RomanNumberSwitch {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.print("enter a number:");
-        int number = scanner.nextInt(); // You can change this to test other numbers (1-10)
+        int number = scanner.nextInt();
         String roman;
 
         switch (number) {
@@ -47,3 +47,4 @@ public class RomanNumberSwitch {
         System.out.println("Roman numeral for " + number + " is " + roman);
     }
 }
+
