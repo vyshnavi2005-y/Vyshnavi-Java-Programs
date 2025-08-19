@@ -93,7 +93,7 @@ public class CollegeManagementSystem {
     static void addStudent() {
         System.out.print("Enter student ID: ");
         int id = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine();
         System.out.print("Enter student name: ");
         String name = scanner.nextLine();
         System.out.print("Enter student age: ");
@@ -171,3 +171,4 @@ public class CollegeManagementSystem {
         }
     }
 }
+
