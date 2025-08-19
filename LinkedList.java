@@ -51,12 +51,13 @@ public class LinkedList {
         list.add(30);
         list.add(40);
         System.out.println("Original list:");
-        list.printList(); // 10 -> 20 -> 30 -> 40 -> null
+        list.printList();
         list.delete(20);
         System.out.println("After deleting 20:");
-        list.printList(); // 10 -> 30 -> 40 -> null
+        list.printList(); 
         list.delete(10);
         System.out.println("After deleting 10:");
-        list.printList(); // 30 -> 40 -> null
+        list.printList();
     }
 }
+
